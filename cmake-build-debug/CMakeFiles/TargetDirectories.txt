@@ -1,0 +1,3 @@
+/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles/SimpleGame.dir
+/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
