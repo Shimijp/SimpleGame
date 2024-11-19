@@ -1,7 +1,6 @@
 CMakeFiles/SimpleGame.dir/main.cpp.o: \
  /home/shimon/SimpleGame/SimpleGame/main.cpp /usr/include/stdc-predef.h \
- /usr/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/glad/glad.h /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,9 +16,15 @@ CMakeFiles/SimpleGame.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/GLFW/glfw3.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/c++/13/cstdio \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+ /usr/include/c++/13/pstl/pstl_config.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \

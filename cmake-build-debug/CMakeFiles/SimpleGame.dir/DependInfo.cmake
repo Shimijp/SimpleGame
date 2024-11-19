@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/shimon/SimpleGame/SimpleGame/glad.c" "CMakeFiles/SimpleGame.dir/glad.c.o" "gcc" "CMakeFiles/SimpleGame.dir/glad.c.o.d"
   "/home/shimon/SimpleGame/SimpleGame/main.cpp" "CMakeFiles/SimpleGame.dir/main.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/main.cpp.o.d"
   )
 

@@ -9,7 +9,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the executable
-add_executable(SimpleGame main.cpp) # Replace main.cpp with your source files
+add_executable(SimpleGame main.cpp
+        glad.c) # Replace main.cpp with your source files
 
 # Find the GLFW package
 find_package(glfw3 REQUIRED)
