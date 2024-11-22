@@ -5,10 +5,13 @@
 #ifndef VAO_H
 #define VAO_H
 #include <glad/glad.h>
-class VAO {
-    VAO::VAO();
+class EBO {
+public:
+    unsigned int ID;
+    EBO(unsigned int * indices, GLsizeiptr size);
     void Bind();
     void Unbind();
     void Delete();
 };
+
 #endif //VAO_H

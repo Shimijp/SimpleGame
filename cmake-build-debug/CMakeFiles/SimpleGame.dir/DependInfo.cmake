@@ -9,7 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/shimon/SimpleGame/SimpleGame/glad.c" "CMakeFiles/SimpleGame.dir/glad.c.o" "gcc" "CMakeFiles/SimpleGame.dir/glad.c.o.d"
+  "/home/shimon/SimpleGame/SimpleGame/EBO.cpp" "CMakeFiles/SimpleGame.dir/EBO.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/EBO.cpp.o.d"
+  "/home/shimon/SimpleGame/SimpleGame/VAO.cpp" "CMakeFiles/SimpleGame.dir/VAO.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/VAO.cpp.o.d"
+  "/home/shimon/SimpleGame/SimpleGame/VBO.cpp" "CMakeFiles/SimpleGame.dir/VBO.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/VBO.cpp.o.d"
   "/home/shimon/SimpleGame/SimpleGame/main.cpp" "CMakeFiles/SimpleGame.dir/main.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/main.cpp.o.d"
+  "/home/shimon/SimpleGame/SimpleGame/mandelbrotCalc.cpp" "CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o.d"
+  "/home/shimon/SimpleGame/SimpleGame/utils.cpp" "CMakeFiles/SimpleGame.dir/utils.cpp.o" "gcc" "CMakeFiles/SimpleGame.dir/utils.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

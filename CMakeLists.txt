@@ -10,7 +10,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the executable
 add_executable(SimpleGame main.cpp
-        glad.c) # Replace main.cpp with your source files
+        glad.c
+        utils.cpp
+        utils.h
+        VBO.h
+        VBO.cpp
+        EBO.h
+        "EBO.cpp"
+        VAO.h
+        VAO.cpp
+        mandelbrotCalc.h
+        mandelbrotCalc.cpp) # Replace main.cpp with your source files
 
 # Find the GLFW package
 find_package(glfw3 REQUIRED)

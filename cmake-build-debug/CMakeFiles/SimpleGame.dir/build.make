@@ -97,23 +97,103 @@ CMakeFiles/SimpleGame.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SimpleGame.dir/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/glad.c -o CMakeFiles/SimpleGame.dir/glad.c.s
 
+CMakeFiles/SimpleGame.dir/utils.cpp.o: CMakeFiles/SimpleGame.dir/flags.make
+CMakeFiles/SimpleGame.dir/utils.cpp.o: /home/shimon/SimpleGame/SimpleGame/utils.cpp
+CMakeFiles/SimpleGame.dir/utils.cpp.o: CMakeFiles/SimpleGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleGame.dir/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleGame.dir/utils.cpp.o -MF CMakeFiles/SimpleGame.dir/utils.cpp.o.d -o CMakeFiles/SimpleGame.dir/utils.cpp.o -c /home/shimon/SimpleGame/SimpleGame/utils.cpp
+
+CMakeFiles/SimpleGame.dir/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleGame.dir/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shimon/SimpleGame/SimpleGame/utils.cpp > CMakeFiles/SimpleGame.dir/utils.cpp.i
+
+CMakeFiles/SimpleGame.dir/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleGame.dir/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/utils.cpp -o CMakeFiles/SimpleGame.dir/utils.cpp.s
+
+CMakeFiles/SimpleGame.dir/VBO.cpp.o: CMakeFiles/SimpleGame.dir/flags.make
+CMakeFiles/SimpleGame.dir/VBO.cpp.o: /home/shimon/SimpleGame/SimpleGame/VBO.cpp
+CMakeFiles/SimpleGame.dir/VBO.cpp.o: CMakeFiles/SimpleGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleGame.dir/VBO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleGame.dir/VBO.cpp.o -MF CMakeFiles/SimpleGame.dir/VBO.cpp.o.d -o CMakeFiles/SimpleGame.dir/VBO.cpp.o -c /home/shimon/SimpleGame/SimpleGame/VBO.cpp
+
+CMakeFiles/SimpleGame.dir/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleGame.dir/VBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shimon/SimpleGame/SimpleGame/VBO.cpp > CMakeFiles/SimpleGame.dir/VBO.cpp.i
+
+CMakeFiles/SimpleGame.dir/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleGame.dir/VBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/VBO.cpp -o CMakeFiles/SimpleGame.dir/VBO.cpp.s
+
+CMakeFiles/SimpleGame.dir/EBO.cpp.o: CMakeFiles/SimpleGame.dir/flags.make
+CMakeFiles/SimpleGame.dir/EBO.cpp.o: /home/shimon/SimpleGame/SimpleGame/EBO.cpp
+CMakeFiles/SimpleGame.dir/EBO.cpp.o: CMakeFiles/SimpleGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleGame.dir/EBO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleGame.dir/EBO.cpp.o -MF CMakeFiles/SimpleGame.dir/EBO.cpp.o.d -o CMakeFiles/SimpleGame.dir/EBO.cpp.o -c /home/shimon/SimpleGame/SimpleGame/EBO.cpp
+
+CMakeFiles/SimpleGame.dir/EBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleGame.dir/EBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shimon/SimpleGame/SimpleGame/EBO.cpp > CMakeFiles/SimpleGame.dir/EBO.cpp.i
+
+CMakeFiles/SimpleGame.dir/EBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleGame.dir/EBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/EBO.cpp -o CMakeFiles/SimpleGame.dir/EBO.cpp.s
+
+CMakeFiles/SimpleGame.dir/VAO.cpp.o: CMakeFiles/SimpleGame.dir/flags.make
+CMakeFiles/SimpleGame.dir/VAO.cpp.o: /home/shimon/SimpleGame/SimpleGame/VAO.cpp
+CMakeFiles/SimpleGame.dir/VAO.cpp.o: CMakeFiles/SimpleGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimpleGame.dir/VAO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleGame.dir/VAO.cpp.o -MF CMakeFiles/SimpleGame.dir/VAO.cpp.o.d -o CMakeFiles/SimpleGame.dir/VAO.cpp.o -c /home/shimon/SimpleGame/SimpleGame/VAO.cpp
+
+CMakeFiles/SimpleGame.dir/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleGame.dir/VAO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shimon/SimpleGame/SimpleGame/VAO.cpp > CMakeFiles/SimpleGame.dir/VAO.cpp.i
+
+CMakeFiles/SimpleGame.dir/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleGame.dir/VAO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/VAO.cpp -o CMakeFiles/SimpleGame.dir/VAO.cpp.s
+
+CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o: CMakeFiles/SimpleGame.dir/flags.make
+CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o: /home/shimon/SimpleGame/SimpleGame/mandelbrotCalc.cpp
+CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o: CMakeFiles/SimpleGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o -MF CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o.d -o CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o -c /home/shimon/SimpleGame/SimpleGame/mandelbrotCalc.cpp
+
+CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shimon/SimpleGame/SimpleGame/mandelbrotCalc.cpp > CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.i
+
+CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shimon/SimpleGame/SimpleGame/mandelbrotCalc.cpp -o CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.s
+
 # Object files for target SimpleGame
 SimpleGame_OBJECTS = \
 "CMakeFiles/SimpleGame.dir/main.cpp.o" \
-"CMakeFiles/SimpleGame.dir/glad.c.o"
+"CMakeFiles/SimpleGame.dir/glad.c.o" \
+"CMakeFiles/SimpleGame.dir/utils.cpp.o" \
+"CMakeFiles/SimpleGame.dir/VBO.cpp.o" \
+"CMakeFiles/SimpleGame.dir/EBO.cpp.o" \
+"CMakeFiles/SimpleGame.dir/VAO.cpp.o" \
+"CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o"
 
 # External object files for target SimpleGame
 SimpleGame_EXTERNAL_OBJECTS =
 
 SimpleGame: CMakeFiles/SimpleGame.dir/main.cpp.o
 SimpleGame: CMakeFiles/SimpleGame.dir/glad.c.o
+SimpleGame: CMakeFiles/SimpleGame.dir/utils.cpp.o
+SimpleGame: CMakeFiles/SimpleGame.dir/VBO.cpp.o
+SimpleGame: CMakeFiles/SimpleGame.dir/EBO.cpp.o
+SimpleGame: CMakeFiles/SimpleGame.dir/VAO.cpp.o
+SimpleGame: CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o
 SimpleGame: CMakeFiles/SimpleGame.dir/build.make
 SimpleGame: /usr/lib/x86_64-linux-gnu/libGLEW.so
 SimpleGame: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 SimpleGame: /usr/lib/x86_64-linux-gnu/libGLX.so
 SimpleGame: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 SimpleGame: CMakeFiles/SimpleGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SimpleGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shimon/SimpleGame/SimpleGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SimpleGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

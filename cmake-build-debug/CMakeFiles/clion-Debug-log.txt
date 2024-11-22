@@ -1,4 +1,4 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/shimon/SimpleGame/SimpleGame -B /home/shimon/SimpleGame/SimpleGame/cmake-build-debug
--- Configuring done (1.7s)
+-- Configuring done (2.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/shimon/SimpleGame/SimpleGame/cmake-build-debug

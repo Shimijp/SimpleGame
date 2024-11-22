@@ -129,6 +129,78 @@ SimpleGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/build
 .PHONY : SimpleGame/fast
 
+EBO.o: EBO.cpp.o
+.PHONY : EBO.o
+
+# target to build an object file
+EBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/EBO.cpp.o
+.PHONY : EBO.cpp.o
+
+EBO.i: EBO.cpp.i
+.PHONY : EBO.i
+
+# target to preprocess a source file
+EBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/EBO.cpp.i
+.PHONY : EBO.cpp.i
+
+EBO.s: EBO.cpp.s
+.PHONY : EBO.s
+
+# target to generate assembly for a file
+EBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/EBO.cpp.s
+.PHONY : EBO.cpp.s
+
+VAO.o: VAO.cpp.o
+.PHONY : VAO.o
+
+# target to build an object file
+VAO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VAO.cpp.o
+.PHONY : VAO.cpp.o
+
+VAO.i: VAO.cpp.i
+.PHONY : VAO.i
+
+# target to preprocess a source file
+VAO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VAO.cpp.i
+.PHONY : VAO.cpp.i
+
+VAO.s: VAO.cpp.s
+.PHONY : VAO.s
+
+# target to generate assembly for a file
+VAO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VAO.cpp.s
+.PHONY : VAO.cpp.s
+
+VBO.o: VBO.cpp.o
+.PHONY : VBO.o
+
+# target to build an object file
+VBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VBO.cpp.o
+.PHONY : VBO.cpp.o
+
+VBO.i: VBO.cpp.i
+.PHONY : VBO.i
+
+# target to preprocess a source file
+VBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VBO.cpp.i
+.PHONY : VBO.cpp.i
+
+VBO.s: VBO.cpp.s
+.PHONY : VBO.s
+
+# target to generate assembly for a file
+VBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/VBO.cpp.s
+.PHONY : VBO.cpp.s
+
 glad.o: glad.c.o
 .PHONY : glad.o
 
@@ -177,6 +249,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mandelbrotCalc.o: mandelbrotCalc.cpp.o
+.PHONY : mandelbrotCalc.o
+
+# target to build an object file
+mandelbrotCalc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.o
+.PHONY : mandelbrotCalc.cpp.o
+
+mandelbrotCalc.i: mandelbrotCalc.cpp.i
+.PHONY : mandelbrotCalc.i
+
+# target to preprocess a source file
+mandelbrotCalc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.i
+.PHONY : mandelbrotCalc.cpp.i
+
+mandelbrotCalc.s: mandelbrotCalc.cpp.s
+.PHONY : mandelbrotCalc.s
+
+# target to generate assembly for a file
+mandelbrotCalc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/mandelbrotCalc.cpp.s
+.PHONY : mandelbrotCalc.cpp.s
+
+utils.o: utils.cpp.o
+.PHONY : utils.o
+
+# target to build an object file
+utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/utils.cpp.o
+.PHONY : utils.cpp.o
+
+utils.i: utils.cpp.i
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/utils.cpp.i
+.PHONY : utils.cpp.i
+
+utils.s: utils.cpp.s
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleGame.dir/build.make CMakeFiles/SimpleGame.dir/utils.cpp.s
+.PHONY : utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleGame"
+	@echo "... EBO.o"
+	@echo "... EBO.i"
+	@echo "... EBO.s"
+	@echo "... VAO.o"
+	@echo "... VAO.i"
+	@echo "... VAO.s"
+	@echo "... VBO.o"
+	@echo "... VBO.i"
+	@echo "... VBO.s"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mandelbrotCalc.o"
+	@echo "... mandelbrotCalc.i"
+	@echo "... mandelbrotCalc.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 
